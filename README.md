@@ -23,11 +23,11 @@
 |F-score|0.88|0.90|0.89|0.88|0.87|0.87|0.87|0.88|0.87|0.88|
 
 ### 学習の様子
-![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph.png)
+![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph_loss.png)
 ### 正解率の推移
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph.png)
 
 ## コードの実行手順
-price.ipynbを上から順に実行していく
+.ipynbを上から順に実行していく
 
 
