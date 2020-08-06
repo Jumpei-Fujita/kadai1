@@ -28,6 +28,6 @@
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph.png)
 
 ## コードの実行手順
-.ipynbを上から順に実行していく
+mnist.ipynbを上から順に実行していく
 
 
