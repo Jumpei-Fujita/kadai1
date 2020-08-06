@@ -5,7 +5,7 @@
 ### 1.入力データの標準化
 輝度は0 ~ 255の256段階で表されている。今回はデータとして扱いやすい形にするため、最大値である255で割ることにより0 ~ 1の間に丸めた。
 ### 2.データの分割
-最初にtensor-flowによりデータセットを読み込み、6:1に分割されている。これらをscikit-learnを用いることにより6:0.5:0.5=12:1:1に分割した。
+最初にtensor-flowによりデータセットを読み込み、6:1に分割されている。これらをscikit-learnを用いることにより訓練データ、検証用データ、テストデータを6:0.5:0.5=12:1:1に分割した。
 
 ## モデル構築
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/Dentsu_cnn.png)<br>
@@ -24,7 +24,7 @@
 
 ### 学習の様子
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph_loss.png)
-### 正解率の推移
+### 検証用データに対する正解率の推移
 ![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/graph.png)
 
 ## コードの実行手順
