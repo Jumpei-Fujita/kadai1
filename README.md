@@ -8,7 +8,7 @@
 最初にtensor-flowによりデータセットを読み込み、6:1に分割されている。これらをscikit-learnを用いることにより訓練データ、検証用データ、テストデータを6:0.5:0.5=12:1:1に分割した。
 
 ## モデル構築
-![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/Dentsu_cnn.png)<br>
+![model](https://github.com/Jumpei-Fujita/kadai1/blob/master/dentsu_cnn.png)<br>
 今回は畳み込みニューラルネットワークにより学習を行い予測を行った。
 アーキテクチャの概略は以下の通りである。
 出力と訓練データのラベルの交差エントロピー誤差を最小にするように学習パラメータの更新を行った。
